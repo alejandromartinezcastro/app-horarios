@@ -2,7 +2,6 @@ node_modules/
 __pycache__/
 .env
 .env.local
-frontend/.env.local
 .DS_Store
 dist/
 .venv/
