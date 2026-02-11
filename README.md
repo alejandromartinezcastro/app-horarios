@@ -63,7 +63,11 @@ Además:
 
 ### 2) Configura variables locales del frontend
 
-Ya existe `frontend/.env.local` en el repo como plantilla. Solo edítalo con tus valores reales:
+Copia la plantilla y completa tus valores reales:
+
+```bash
+cp frontend/.env.example frontend/.env.local
+```
 
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:8000
