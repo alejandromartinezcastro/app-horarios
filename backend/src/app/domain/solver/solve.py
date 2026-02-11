@@ -6,7 +6,7 @@ from typing import Dict, List, Tuple
 
 from ortools.sat.python import cp_model
 
-from core.schema import (
+from app.domain.core.schema import (
     CourseRequirement,
     TimetableProblem,
     TimetableSolution,
