@@ -5,3 +5,7 @@ __pycache__/
 .DS_Store
 dist/
 .venv/
+
+.next/
+frontend/.next/
+frontend/tsconfig.tsbuildinfo
