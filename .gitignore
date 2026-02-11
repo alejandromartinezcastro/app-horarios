@@ -2,6 +2,12 @@ node_modules/
 __pycache__/
 .env
 .env.local
+# Mantenemos una plantilla local específica para frontend versionada
+!frontend/.env.local
 .DS_Store
 dist/
 .venv/
+
+.next/
+frontend/.next/
+frontend/tsconfig.tsbuildinfo
