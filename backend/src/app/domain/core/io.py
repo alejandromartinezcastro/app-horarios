@@ -4,7 +4,7 @@ from __future__ import annotations
 from dataclasses import asdict
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
-from core.schema import (
+from app.domain.core.schema import (
     Calendar,
     CourseRequirement,
     Group,

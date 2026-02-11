@@ -6,7 +6,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Set, Tuple
 
-from core.schema import (
+from app.domain.core.schema import (
     Calendar,
     CourseRequirement,
     Slot,
