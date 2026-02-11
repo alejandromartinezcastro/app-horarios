@@ -80,22 +80,3 @@ npm run dev
 ```
 
 Al abrir `http://localhost:3000`, la home muestra si Supabase está configurado o pendiente.
-
-### Troubleshooting (Windows / PowerShell)
-
-Si aparece este error:
-
-```
-"next" no se reconoce como un comando interno o externo
-```
-
-normalmente significa que aún no están instaladas las dependencias del frontend.
-
-Ejecuta desde la raíz del repo:
-
-```powershell
-npm --prefix frontend install
-npm --prefix frontend run build
-```
-
-> Nota: `npm --prefix frontend run build` ahora valida primero si `next` está instalado y te mostrará un mensaje claro si falta `npm install`.
